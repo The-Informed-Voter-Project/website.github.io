@@ -8,7 +8,7 @@
   * Those 65 or older and people who are wealthy are three times more likely vote than someone between the ages of 18-24
   * The United States has one of the lowest voter turnout rates in the world
 
-![](/images/funnel.PNG)
+![](https://the-informed-voter-project.github.io/website.github.io/images/funnel.PNG)
 
 ## Why Don't People Vote?
 
@@ -19,7 +19,7 @@
   * Not interested
   * Don't feel that their vote can make a difference
   
-![](/images/silence-violence.jfif)
+![](https://the-informed-voter-project.github.io/website.github.io/images/silence-violence.jfif)
 
 ## The Importance of Local Elections
 ### Local elections help determine...
