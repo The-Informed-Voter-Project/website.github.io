@@ -19,7 +19,7 @@
   * Not interested
   * Don't feel that their vote can make a difference
   
-![](/images/silence-violence.jfif)
+![](https://the-informed-voter-project.github.io/website.github.io/images/silence-violence.jfif)
 
 ## The Importance of Local Elections
 ### Local elections help determine...
