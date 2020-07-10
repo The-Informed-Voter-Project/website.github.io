@@ -1,7 +1,7 @@
 # Meet the Team
 
 
-! [] (images/swati.png)
+![](images/swati.png)
 
 ## Swati Goel
     President
