@@ -1,4 +1,4 @@
-![](/images/rem-vote.jpg)
+![](https://the-informed-voter-project.github.io/website.github.io/images/rem-vote.jpg)
 
 # Mission Statement
 
