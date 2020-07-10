@@ -2,7 +2,7 @@
 
 ##The Numbers
 
-![](https://The-Informed-Voter-Project/website.github.io/pics/vote mult.jpg)
+![](https://The-Informed-Voter-Project/website.github.io/pics/vote-mult.jpg)
 
   *less than 50% of registered voters participate in local elections
   *Those 65 or older and people who are wealthy are three times more likely vote than someone between the ages of 18-24
@@ -19,7 +19,7 @@
   *Not interested
   *Don't feel that their vote can make a difference
   
-![](https://The-Informed-Voter-Project/website.github.io/pics/silence is violence.jfif)
+![](https://The-Informed-Voter-Project/website.github.io/pics/silence-violence.jfif)
 
 ##The Importance of Local Elections
 ###Local elections help determine...
