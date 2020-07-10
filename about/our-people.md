@@ -11,7 +11,7 @@
 ## Ian Zhang
     Director
     
-![](https://the-informed-voter-project.github.io/website.github.io/images/raghav.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/raghav.jpg)
 
 ## Raghav Shankar
     Board Member
