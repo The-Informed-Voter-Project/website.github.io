@@ -1,4 +1,4 @@
-#Meet the Team
+# Meet the Team
 
 
 ![](pics/swati.png)
