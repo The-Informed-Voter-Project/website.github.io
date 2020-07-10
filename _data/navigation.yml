@@ -4,21 +4,21 @@
 
 - title: About
   url: /about/
-  - title: The Issue
-    url: /about/issue
-  - title: Our Mission
-    url: /about/our-mission
-  - title: Our People
-    url: /about/our-people
-  - title: Contact Us
-    url: /about/contact-us
+- title: The Issue
+  url: /about/issue
+- title: Our Mission
+  url: /about/our-mission
+- title: Our People
+  url: /about/our-people
+- title: Contact Us
+  url: /about/contact-us
 
 - title: Mobile App
   url: /mobile-app/
-  - title: About the App
-    url: /mobile-app/about-the-app
-  - title: Download the App
-    url: /mobile-app/download-app
+- title: About the App
+  url: /mobile-app/about-the-app
+- title: Download the App
+  url: /mobile-app/download-app
 
 - title: Blog
   url: /blog/
