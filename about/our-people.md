@@ -1,14 +1,14 @@
 # Meet the Team
 
 
-![](pics/swati.png)
+![](images/swati.png)
 
-![](pics/ian.png)
+![](images/ian.png)
 
-![](pics/raghav.png)
+![](images/raghav.png)
 
-![](pics/ram.png)
+![](images/ram.png)
 
-![](pics/dan.png)
+![](images/dan.png)
 
-![](pics/av.png)
+![](images/av.png)
