@@ -1,32 +1,32 @@
 # Meet the Team
 
 
-![](images/swati.png)
+![](/images/swati.png)
 
 ## Swati Goel
     President
     
-![](images/ian.png)
+![](/images/ian.png)
 
 ## Ian Zhang
     Director
     
-![](images/raghav.png)
+![](/images/raghav.png)
 
 ## Raghav Shankar
     Board Member
     
-![](images/ram.png)
+![](/images/ram.png)
 
 ## Ram Bhakta
     Board Member
     
-![](images/dan.png)
+![](/images/dan.png)
 
 ## Daniel Orenstein
     SWE
     
-![](images/av.png)
+![](/images/av.png)
 
 ## Ava Ganeshan
     SWE
