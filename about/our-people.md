@@ -1,32 +1,32 @@
 # Meet the Team
 
 
-![](/images/swati.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/swati.png)
 
 ## Swati Goel
     President
     
-![](/images/ian.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/ian.png)
 
 ## Ian Zhang
     Director
     
-![](/images/raghav.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/raghav.png)
 
 ## Raghav Shankar
     Board Member
     
-![](/images/ram.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/ram.png)
 
 ## Ram Bhakta
     Board Member
     
-![](/images/dan.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/dan.png)
 
 ## Daniel Orenstein
     SWE
     
-![](/images/av.png)
+![](https://the-informed-voter-project.github.io/website.github.io/images/av.png)
 
 ## Ava Ganeshan
     SWE
