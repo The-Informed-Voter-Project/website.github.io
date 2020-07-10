@@ -2,7 +2,7 @@
 
 ## The Numbers
 
-![](/images/vote-mult.jpg)
+![pic](/images/vote-mult.jpg)
 
   * Less than 50% of registered voters participate in local elections
   * Those 65 or older and people who are wealthy are three times more likely vote than someone between the ages of 18-24
