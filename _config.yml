@@ -1,1 +1,7 @@
-theme: jekyll-theme-dinky
+theme: jekyll-theme-dinky/
+
+# Site wide configuration
+
+title: The Informed Voter Project
+locale: Seattle, WA
+logo: /images/logo-bw.png/
