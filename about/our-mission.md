@@ -1,4 +1,4 @@
-![](rem-vote.jpg)
+![](images/rem-vote.jpg)
 
 # Mission Statement
 
