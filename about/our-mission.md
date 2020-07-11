@@ -8,6 +8,3 @@ Our vision is a thriving democracy, one where voters actively participate in the
 # Goals
 
 Coming Soon!
-
-> "Act as if what you do makes a difference. It does"
-> William James
