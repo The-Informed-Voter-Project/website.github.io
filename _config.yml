@@ -1,5 +1,27 @@
 theme: jekyll-theme-dinky
-
 title: The Informed Voter Project
 locale: Seattle, WA
-logo: /images/logo-bw.png
+logo: https://the-informed-voter-project.github.io/website.github.io/images/logo-bw.png
+
+show_downloads: True
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    subfolderitems:
+    - page: The Issue
+      url: /about/issue/
+    - page: Our Mission
+      url: /about/our-mission/
+    - page: Our People
+      url: /about/our-people
+    - page: Contact Us
+      url: /about/contact-us/
+  - title: Mobile App
+    subfolderitems:
+    - page: About the App
+      url: /mobile-app/about-the-app/
+    - page: Download the App
+      url: /mobile-app/download-app/
+  - title: Blog
+    url: /blog/
