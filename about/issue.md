@@ -27,5 +27,5 @@
   * Local prosecutors and the criminal justice system
   * Local responses to climate change
   * Police funding
-  * Public transportation
-  |And so much more...
+  * Public transportation\
+  And so much more...
