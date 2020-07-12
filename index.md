@@ -1,6 +1,6 @@
 # The Informed Voter Project
 
-> "Act as if what you do makes a difference. It does"\
+> "Act as if what you do makes a difference. It does"<br/>
 >  \-William James
 
 ## Connecting Voters with the Issues they Care About Most
