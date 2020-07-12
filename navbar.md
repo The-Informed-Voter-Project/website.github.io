@@ -1,5 +1,6 @@
 # The Informed Voter Project
-![logo] (https://the-informed-voter-project.github.io/website.github.io/images/logo-bw.png)
+
+[logo]: /images/logo-bw.jpg
 
 * [Home] (/index.md)
 * [About] (/about/)
