@@ -2,12 +2,5 @@ theme: jekyll-theme-dinky
 title: The Informed Voter Project
 locale: Seattle, WA
 logo: https://the-informed-voter-project.github.io/website.github.io/images/logo-bw.png
-show_downloads: True
+# show_downloads: True
 
-defaults:
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "home"; "about"; "app"; "blog"
