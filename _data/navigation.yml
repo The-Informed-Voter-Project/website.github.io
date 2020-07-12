@@ -1,25 +1,26 @@
 # Site navigation links
-- title: Home
-  url: /
+docs:
+  - title: Home
+    url: /
 
-- title: About
-  subfolderitems:
-  - page: The Issue
-    url: /about/issue/
-  - page: Our Mission
-    url: /about/our-mission/
-  - page: Our People
-    url: /about/our-people
-  - page: Contact Us
-    url: /about/contact-us/
+  - title: About
+    subfolderitems:
+    - page: The Issue
+      url: /about/issue/
+    - page: Our Mission
+      url: /about/our-mission/
+    - page: Our People
+      url: /about/our-people
+    - page: Contact Us
+      url: /about/contact-us/
 
-- title: Mobile App
-  subfolderitems:
-  - page: About the App
-    url: /mobile-app/about-the-app/
-  - page: Download the App
-    url: /mobile-app/download-app/
+  - title: Mobile App
+    subfolderitems:
+    - page: About the App
+      url: /mobile-app/about-the-app/
+    - page: Download the App
+      url: /mobile-app/download-app/
 
-- title: Blog
-  url: /blog/
+  - title: Blog
+    url: /blog/
 
