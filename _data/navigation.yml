@@ -1,26 +1,26 @@
 # Site navigation links
-docs:
+home: 
   - title: Home
     url: /
-
+about:
   - title: About
-    subfolderitems:
-    - page: The Issue
+    children:
+    - title: "The Issue"
       url: /about/issue/
-    - page: Our Mission
+    - title: "Our Mission"
       url: /about/our-mission/
-    - page: Our People
+    - title: "Our People"
       url: /about/our-people
-    - page: Contact Us
+    - title: "Contact Us"
       url: /about/contact-us/
-
+app:
   - title: Mobile App
-    subfolderitems:
-    - page: About the App
+    children:
+    - title: "About the App"
       url: /mobile-app/about-the-app/
-    - page: Download the App
+    - title: "Download the App"
       url: /mobile-app/download-app/
-
+blog:
   - title: Blog
     url: /blog/
 
