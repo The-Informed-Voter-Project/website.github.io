@@ -1,5 +1,5 @@
-theme: jekyll-theme-dinky
+theme: jekyll-theme-minimal
 title: The Informed Voter Project
 locale: Seattle, WA
 logo: /images/logo-bw.png
-# show_downloads: True
+show_downloads: True
