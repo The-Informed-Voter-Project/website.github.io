@@ -29,7 +29,7 @@ Requirements for measure passage
 
 Simple Majority (RCW 52.18.050)
 
-![View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99688&groupname=SpecialPurposeDistrict)
+[View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99688&groupname=SpecialPurposeDistrict)
 
 ### Mountain View Fire and Rescue
 Proposition No. 1
@@ -89,8 +89,7 @@ Statements in favor of and in opposition to a ballot measure are submitted by co
 Requirements for measure passage
 
 60% approval and at least 1,460 Yes votes (Wash. Const. art. VII, sec. 2(a))
-
-![View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99712&groupname=SpecialPurposeDistrict)
+[View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99712&groupname=SpecialPurposeDistrict)
  
 ### South King Fire & Rescue
 Proposition No. 1
@@ -151,4 +150,4 @@ Requirements for measure passage
 
 60% approval and at least 8,107 Yes votes (Wash. Const. art. VII, sec. 2(a))
 
-![View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99713&groupname=SpecialPurposeDistrict)
+[View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99713&groupname=SpecialPurposeDistrict)
