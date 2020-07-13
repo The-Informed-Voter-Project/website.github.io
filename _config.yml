@@ -2,12 +2,15 @@ theme: jekyll-theme-minimal
 title: The Informed Voter Project
 logo: /images/logo-bw.png
 show_downloads: True
-
 defaults:
-  # _docs
+  # _posts
   - scope:
       path: ""
-      type: docs
+      type: posts
     values:
-      sidebar:
-        nav: "docs"
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
