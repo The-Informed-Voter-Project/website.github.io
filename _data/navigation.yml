@@ -1,8 +1,5 @@
 # Site navigation links
 docs:
-
-  - title: Home
-    url: /
     
   - title: About
     children:
