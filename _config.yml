@@ -4,3 +4,11 @@ locale: Seattle, WA
 logo: https://the-informed-voter-project.github.io/website.github.io/images/logo-bw.png
 # show_downloads: True
 
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
