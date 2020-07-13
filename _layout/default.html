@@ -1,5 +1,3 @@
-<!--
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -12,8 +10,19 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-<!--  </head>
+  </head>
   <body>
+    <div class="navbar">
+      <a href="/about/">About</a>
+      <div class="subnav">
+        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="/about/issue/">The Issue</a>
+          <a href="/about/our-mission">Our Mission</a>
+          <a href="/about/our-team/">Team</a>
+          <a href="/about/contact-us/">Contact Us</a>
+        </div>
+      </div>       
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -39,9 +48,7 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-        
       </header>
-      {% include navbar.html %}
       <section>
 
       {{ content }}
@@ -67,4 +74,3 @@
     {% endif %}
   </body>
 </html>
--->
