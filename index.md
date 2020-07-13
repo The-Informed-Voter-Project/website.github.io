@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # The Informed Voter Project
 
 > "Act as if what you do makes a difference. It does"<br/>
