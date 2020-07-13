@@ -1,25 +1,25 @@
 # Site navigation links
 
-  - title: Home
-    url: /
+#  - title: Home
+#    url: /
     
-  - title: About
-    sublinks:
-      - title: "The Issue"
-        url: /about/issue/
-      - title: "Our Mission"
-        url: /about/our-mission/
-      - title: "Our People"
-        url: /about/our-people
-      - title: "Contact Us"
-        url: /about/contact-us/
+#  - title: About
+#    sublinks:
+#      - title: "The Issue"
+#        url: /about/issue/
+#      - title: "Our Mission"
+#        url: /about/our-mission/
+#      - title: "Our People"
+#        url: /about/our-people
+#      - title: "Contact Us"
+#        url: /about/contact-us/
         
-  - title: Mobile App
-    sublinks:
-      - title: "About the App"
-        url: /app/about-the-app/
-      - title: "Download the App"
-        url: /app/download-app/
+#  - title: Mobile App
+#    sublinks:
+#      - title: "About the App"
+#        url: /app/about-the-app/
+#      - title: "Download the App"
+#        url: /app/download-app/
         
   #- title: Blog
   #  url: /blog/
