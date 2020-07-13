@@ -89,6 +89,7 @@ Statements in favor of and in opposition to a ballot measure are submitted by co
 Requirements for measure passage
 
 60% approval and at least 1,460 Yes votes (Wash. Const. art. VII, sec. 2(a))
+
 [View](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99712&groupname=SpecialPurposeDistrict)
  
 ### South King Fire & Rescue
