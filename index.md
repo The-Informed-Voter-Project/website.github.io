@@ -15,6 +15,4 @@ TBD
 * Voter registration
 * Information access
 
-sidebar:
-  nav: "docs"
 
