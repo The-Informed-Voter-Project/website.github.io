@@ -37,29 +37,12 @@ Levy of General Tax for Maintenance and Operations
 
 The Board of Mountain View Fire and Rescue adopted Resolution No. 20-535 concerning a proposition to adequately finance maintenance and operation costs. This proposition provides for the support of fire protection and emergency medical services, facilities, maintenance, staffing and operations by authorizing the District to levy the following excess taxes:
 
-Collection 
-Year
-Approximate Levy
-Rate/$1,000
-Assessed Value
-Levy
-Amount
-
-2021
-$0.30
-$965,000
-
-2022
-$0.30
-$965,000
-
-2023
-$0.30
-$965,000
-
-2024
-$0.30
-$965,000
+| Collection Year | Approximate <br/> Levy Rate/$1,000 <br/> Assessed Value | Levy Amount |
+|-----------------|---------------------------------------------------------|-------------|
+|2021|$0.30|$965,000|
+|2022|$0.30|$965,000|
+|2023|$0.30|$965,000|
+|2024|$0.30|$965,000|
 
 Should this proposition be approved?
 
