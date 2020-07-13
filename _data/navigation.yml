@@ -22,3 +22,9 @@
       url: /app/about-the-app
     - title: Download
       url: /app/download
+
+- title: Upcoming Elections
+  url: /ballot-data/
+  sublinks:
+    - title: Initiatives
+      url: /ballot-data/initiatives 
