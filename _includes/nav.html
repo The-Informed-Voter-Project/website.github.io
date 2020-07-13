@@ -2,6 +2,7 @@
 
 <!-- This finds the current page so it can be highlighted. -->
 
+<!--
 {% for entry in site.data.navigation %}
 {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
     {% if fullurl == page.url %}
@@ -13,15 +14,16 @@
 {% endfor %}
 
 <!-- Then we build the nav bar. -->
+<!--
 <nav>
     <ul>
     {% for entry in site.data.navigation %}
         {% if entry.url == current_page %}
             <!-- uses yellow, you can change to any other hexadecimal colour code. -->
-            {% assign current = ' style="background-color: #FFFFFF"' %}
+ <!--           {% assign current = ' style="background-color: #FFFFFF"' %}
         {% else %}
             <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
+<!--            {% assign current = null %}
         {% endif %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
@@ -39,3 +41,4 @@
     {% endfor %}
     </ul>
 </nav>
+-->
