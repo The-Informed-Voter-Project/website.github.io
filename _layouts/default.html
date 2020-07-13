@@ -15,7 +15,6 @@
   </head>
   <body>
     <div class="wrapper">
-    {% include nav.html nav=site.data.navigation %}
       <header>
      
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -41,7 +40,7 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-        
+      {% include nav.html nav=site.data.navigation %}
       </header>
       <section>
 
