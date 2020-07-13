@@ -1,21 +1,24 @@
 # Belongs at: /_data/navigation.yml
-- text: Home
+
+- title: Home
   url: /
-- text: About
+
+- title: About
   url: /about/
-  subitems:
-    - text: Issue (sub)
-      url: /about/issue/
-    - text: Mission
-      url: /about/our-mission/    
-    - text: Team (sub)
-      url: /about/our-team/
-    - text: Contact
-      url: /about/contact-us/       
-- text: App
+  sublinks:
+    - title: Issue
+      url: /about/issue
+    - title: Mission
+      url: /about/our-mission
+    - title: Team
+      url: /about/our-team
+    - title: Contact
+      url: /about/contact-us
+
+- title: App
   url: /app/
-  subitems:
-    - text: About (sub)
-      url: /app/about-the-app/
-    - text: Download (sub)
-      url: /app/download-app/
+  sublinks:
+    - title: About
+      url: /app/about-the-app
+    - title: Download
+      url: /app/download
