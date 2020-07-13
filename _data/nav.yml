@@ -1,0 +1,22 @@
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  href: "/about/"
+  subcategories:
+    - subtitle: "Issue"
+      subhref: "/about/issue/"
+    - subtitle: "Our Mission"
+      subhref: "/about/our-mission/"
+    - subtitle: "Our Team"
+      subhref: "/about/our-team/"
+    - subtitle: "Contact Us"
+      subhref: "/about/contact-us/"
+
+- title: "Mobile App"
+  href: "/app/"
+  subcategories:
+    - subtitle: "About the App"
+      subhref: "/app/about-the-app/"
+    - subtitle: "Download"
+      subhref: "/app/download-app/"
