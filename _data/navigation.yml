@@ -1,5 +1,7 @@
 # Site navigation links
-docs:
+main:
+  - title: Home
+    url: /
     
   - title: About
     children:
