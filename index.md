@@ -14,3 +14,7 @@ TBD
 * Voter education
 * Voter registration
 * Information access
+
+sidebar:
+  nav: "docs"
+
