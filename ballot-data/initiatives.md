@@ -1,9 +1,9 @@
 # KCE Ballot Initiatives 
 ## August 2020 Election
 
-[Snoqualmie Pass Fire and Rescue](# snoqualmie pass fire and rescue)<br/>
+[Snoqualmie Pass Fire and Rescue](#snoqualmie-pass-fire-and-rescue)<br/>
 
-[Mountain View Fire and Rescue](### mountain view fire and rescue)<br/>
+[Mountain View Fire and Rescue](#mountain-view-fire-and-rescue)<br/>
 
 [South King Fire & Rescue](#south-king-fire-and-rescue)<br/>
 
