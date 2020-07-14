@@ -5,7 +5,7 @@
 
 [Mountain View Fire and Rescue](### mountain view fire and rescue)<br/>
 
-[South King Fire & Rescue](### South King Fire & Rescue)<br/>
+[South King Fire & Rescue](#south-king-fire-and-rescue)<br/>
 
 ### Snoqualmie Pass Fire and Rescue
 Proposition No. 1
@@ -81,7 +81,7 @@ Statements in favor of and in opposition to a ballot measure are submitted by co
 
 [View initiative](https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?lang=en-US&cid=99712&groupname=SpecialPurposeDistrict)
  
-### South King Fire & Rescue
+### South King Fire and Rescue
 Proposition No. 1
 Levy of General Tax $3,750,000 for Maintenance and Operations
 
