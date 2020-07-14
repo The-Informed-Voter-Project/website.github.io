@@ -1,5 +1,5 @@
 # KCE Ballot Initiatives 
-## August 2020 Election
+# August 2020 Election
 
 [Snoqualmie Pass Fire and Rescue](#snoqualmie-pass-fire-and-rescue)<br/>
 
