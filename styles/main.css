@@ -1,9 +1,10 @@
 
-<!DOCTYPE html>
+/* general */
 
-p {
-  font-size: 20px; 
+h1 {
+  color: navy;
   font-family: Tahoma, Geneva, sans-serif;
+  font-size: 300%;
 }
 
 h2 {
@@ -12,8 +13,19 @@ h2 {
   color: navy;
 }
 
+p  {
+  color: #707070;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  padding: 30px;
+}
 
-  {% include nav.html %}
+.logo {
+  width: 100%;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 50%;
+}
    
 
 
