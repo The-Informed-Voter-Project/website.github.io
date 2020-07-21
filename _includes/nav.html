@@ -13,11 +13,12 @@
 			/*blue*/ 
 			overflow-x: hidden; 
 			/*for Disabling horizontal scroll */ 
+			transition: 0.5s;
 		} 
 		/* Position and style for the sidebar links */ 
 		
 		.sidebar a { 
-			padding: 10px 10px 10px; 
+			padding: 8px 8px 8px 32px; 
 			font-size: 25px; 
 			color: #FFFFFF; 
 			display: block; 
@@ -26,7 +27,7 @@
 		/* the links change color when mouse hovers upon them*/ 
 		
 		.sidebar a:hover { 
-			color: #FFFFFF; 
+			color: #f1f1f1; 
 		} 
 		/* Position and style the for cross button */ 
 		
@@ -38,7 +39,7 @@
 		/* Style for the sidebar button */ 
 		
 		.openbtn { 
-			font-size: 25px; 
+			font-size: 20px; 
 			background-color: #000080; 
 			color: 	#FFFFFF; 
 			padding: 10px 10px 10px; 
@@ -54,7 +55,7 @@ color: #FFFFFF;
 	when you open the side navigation */ 
 		
 		#main { 
-			transition: margin-left .5s; 
+			transition: margin-left 0.5s; 
 			/* If you want a transition effect */ 
 			padding: 10px; 
 		} 
@@ -65,8 +66,8 @@ color: #FFFFFF;
 	<div id="sidebar" class="sidebar"> 
 		<a href="javascript:void(0)"
 		class="closebtn"
-		onclick="closeNav()"> 
-		× 
+		onclick="closeNav()">& times; 
+		
 	</a> 
 		<!--the cross button-->
 		<a href="/">Home</a> 
@@ -79,7 +80,7 @@ color: #FFFFFF;
 
 	<div id="main"> 
 		<button class="openbtn"
-				onclick="openNav()"> 
+				onclick="openNav()">&#9776;
 		Menu 
 	</button> 
 		<!-- for the sidebar button-->
@@ -90,8 +91,6 @@ color: #FFFFFF;
 	to 250 and the left margin of the 
 	page content to 250 */ 
 	function openNav() { 
-		document.getElementById( 
-		"sidebar").style.width = "250px"; 
 		document.getElementById( 
 		"main").style.marginLeft = "250px"; 
 	} 
