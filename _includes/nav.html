@@ -1,40 +1,108 @@
-<!-- Belongs at: /_includes/navigation.html -->
+<html> 
 
-<!-- This finds the current page so it can be highlighted. -->
+<head> 
+	<style> 
+		/*Position and style for the sidebar*/ 
+		
+		.sidebar { 
+			height: 100%; 
+			width: 0; 
+			position: fixed; 
+			/*Stays in place */ 
+			background-color: black; 
+			/*green*/ 
+			overflow-x: hidden; 
+			/*for Disabling horizontal scroll */ 
+		} 
+		/* Position and style for the sidebar links */ 
+		
+		.sidebar a { 
+			padding: 10px 10px 10px; 
+			font-size: 25px; 
+			color: #111; 
+			display: block; 
+			transition: 0.3s; 
+		} 
+		/* the links change color when mouse hovers upon them*/ 
+		
+		.sidebar a:hover { 
+			color: #FFFFFF; 
+		} 
+		/* Position and style the for cross button */ 
+		
+		.sidebar .closebtn { 
+			position: absolute; 
+			top: 0; 
+			right: 25px; 
+		} 
+		/* Style for the sidebar button */ 
+		
+		.openbtn { 
+			font-size: 32px; 
+			background-color: #008000; 
+			color: #111; 
+			padding: 10px 10px 10px; 
+			border: none; 
+		} 
+		/* the sidebar button changes 
+	color when mouse hovers upon it */ 
+.openbtn:hover { 
+color: #FFFFFF; 
+} 
 
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-    {% if fullurl == page.url %}
-        {% assign current_page = fullurl %}
-        {% break %}
-    {% elsif page.url contains fullurl %}
-        {% assign current_page = fullurl %}
-    {% endif %}
-{% endfor %}
+	/* pushes the page content to the right 
+	when you open the side navigation */ 
+		
+		#main { 
+			transition: margin-left .5s; 
+			/* If you want a transition effect */ 
+			padding: 10px; 
+		} 
+	</style> 
+</head> 
 
-<!-- Then we build the nav bar. -->
-<nav>
-    <ul>
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            <!-- uses yellow, you can change to any other hexadecimal colour code. -->
-            {% assign current = ' style="background-color: #FFFFFF"' %}
-        {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
-        {% endif %}
-        {% assign sublinks = entry.sublinks %}
-        {% if sublinks %}
-        <li{{ current }}>
-            <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-            <ul>
-                {% for sublink in sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
-                {% endfor %}
-            </ul>
-        {% else %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-</nav>          
+<body> 
+	<div id="sidebar" class="sidebar"> 
+		<a href="javascript:void(0)"
+		class="closebtn"
+		onclick="closeNav()"> 
+		× 
+	</a> 
+		<!--the cross button-->
+		<a href="/">India</a> 
+		<a href="/issue">The Issue</a> 
+		<a href="/mission">Our Mission</a> 
+		<a href="/app">Mobile App</a> 
+	</div> 
+
+	<div id="main"> 
+		<button class="openbtn"
+				onclick="openNav()"> 
+		SIDEBAR 
+	</button> 
+		<!-- for the sidebar button-->
+	</div> 
+</body> 
+<script> 
+	/* Sets the width of the sidebar 
+	to 250 and the left margin of the 
+	page content to 250 */ 
+	function openNav() { 
+		document.getElementById( 
+		"sidebar").style.width = "250px"; 
+		document.getElementById( 
+		"main").style.marginLeft = "250px"; 
+	} 
+
+	/* Set the width of the sidebar 
+	to 0 and the left margin of the 
+	page content to 0 */ 
+	function closeNav() { 
+		document.getElementById( 
+		"sidebar").style.width = "0"; 
+		document.getElementById( 
+		"main").style.marginLeft = "0"; 
+	} 
+</script> 
+
+</html> 
