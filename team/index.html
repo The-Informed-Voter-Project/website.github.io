@@ -1,1 +1,162 @@
+<!DOCTYPE html> 
+<html>    
+<head> 
+    <style> 
+        /* Whole html box designing */ 
+        html { 
+            box-sizing: border-box; 
+        } 
+          
+        /* Body width fixing */ 
+        body { 
+            max-width: 100% 
+        } 
+          
+        /* Box sizing depending on parent */ 
+        *, 
+        *:before, 
+        *:after { 
+            box-sizing: inherit; 
+        } 
+          
+        /* Styling column */ 
+        .column { 
+            float: left; 
+            width: 50%; 
+            margin-bottom: 16px; 
+            padding: 5px 10px; 
+        } 
+          
+  
+        /* Column width change depends on screen size */ 
+        @media screen and (max-width: 670px) { 
+            .column { 
+                width: 100%; 
+                text-align: none; 
+            } 
+        } 
+          
+        /* Card designing */ 
+        .card { 
+            background-color: gray; 
+            border: 1px solid black; 
+        } 
+          
+        .container { 
+            padding: 0 16px; 
+        } 
+          
+        /* Icon styling */ 
+        .fa { 
+            margin: 10px; 
+            font-size:68px; 
+  
+        } 
+          
+        .fa:hover { 
+            transform: rotateY(180deg); 
+            transition: transform 0.8s; 
+        } 
+          
+        .container::after, 
+        .row::after { 
+            content: ""; 
+            clear: both; 
+            display: table; 
+        } 
+          
+        /* Button designing */ 
+        .button { 
+            border: none; 
+            padding: 8px; 
+            color: white; 
+            background-color: #449D44; 
+            text-align: center; 
+            cursor: pointer; 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+        /* Hover efect on button */ 
+        .button:hover { 
+            background-color: green; 
+        } 
+      
+        /* Margining first member of team */ 
+        #gfg { 
+            float:none; 
+            margin:auto; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <center> 
+        <h1>Meet The Team Page</h1> 
+        <hr> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/images/swati.png" alt="Swati" style="width:100%">
+      <div class="container">
+        <h2>Swati Goel</h2>
+        <p class="title">PresidenT</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/ian.png" alt="Ian" style="width:100%">
+      <div class="container">
+        <h2>Ian Zhang</h2>
+        <p class="title">Director</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/images/raghav.jpg" alt="Raghav" style="width:100%">
+      <div class="container">
+        <h2>Raghav Shankar</h2>
+        <p class="title">Board Member</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/ram.png" alt="Ram" style="width:100%">
+      <div class="container">
+        <h2>Ram Bhakta</h2>
+        <p class="title">Board Member</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/images/dan.png" alt="Dan" style="width:100%">
+      <div class="container">
+        <h2>Daniel Orenstein</h2>
+        <p class="title">SWE</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/av.png" alt="Ava" style="width:100%">
+      <div class="container">
+        <h2>Ava Ganeshan</h2>
+        <p class="title">SWE</p>
+      </div>
+    </div>
+  </div>
+</center>
+</body> 
+   
+</html> 
 
