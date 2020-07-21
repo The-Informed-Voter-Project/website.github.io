@@ -6,96 +6,63 @@ title: Our Mission
 <html>    
 <head> 
     <style> 
-        /* Whole html box designing */ 
-        html { 
-            box-sizing: border-box; 
-        } 
-          
-        /* Body width fixing */ 
-        body { 
-            max-width: 100% 
-        } 
-          
-        /* Box sizing depending on parent */ 
-        *, 
-        *:before, 
-        *:after { 
-            box-sizing: inherit; 
-        } 
-          
-        /* Styling column */ 
-        .column { 
-            float: left; 
-            width: 50%; 
-            margin-bottom: 16px; 
-            padding: 5px 10px; 
-        } 
-          
-  
-        /* Column width change depends on screen size */ 
-        @media screen and (max-width: 670px) { 
-            .column { 
-                width: 100%; 
-                text-align: none; 
-            } 
-        } 
-          
-        /* Card designing */ 
-        .card { 
-            background-color: gray; 
-            border: 1px solid black; 
-        } 
-          
-        .container { 
-            padding: 0 16px; 
-        } 
-          
-        /* Icon styling */ 
-        .fa { 
-            margin: 10px; 
-            font-size:68px; 
-  
-        } 
-          
-        .fa:hover { 
-            transform: rotateY(180deg); 
-            transition: transform 0.8s; 
-        } 
-          
-        .container::after, 
-        .row::after { 
-            content: ""; 
-            clear: both; 
-            display: table; 
-        } 
-          
-        /* Button designing */ 
-        .button { 
-            border: none; 
-            padding: 8px; 
-            color: white; 
-            background-color: #449D44; 
-            text-align: center; 
-            cursor: pointer; 
-            width: 100%; 
-            margin-bottom: 10px; 
-        } 
-          
-        /* Hover efect on button */ 
-        .button:hover { 
-            background-color: green; 
-        } 
-      
-        /* Margining first member of team */ 
-        #gfg { 
-            float:none; 
-            margin:auto; 
-        } 
+ /* Three columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+} 
     </style> 
 </head> 
 <body> 
     <center> 
-        <h1>Meet The Team Page</h1> 
+        <h1>Meet The Team</h1> 
         <hr> 
 <div class="row">
   <div class="column">
@@ -103,7 +70,7 @@ title: Our Mission
       <img src="/images/swati.png" alt="Swati" style="width:100%">
       <div class="container">
         <h2>Swati Goel</h2>
-        <p class="title">PresidenT</p>
+        <p class="title">President</p>
       </div>
     </div>
   </div>
