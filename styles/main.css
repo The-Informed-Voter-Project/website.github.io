@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+  font-size: 20px; 
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+  font-size: 35;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: navy;
+}
+
+
+  {% include nav.html %}
+   
+
+
+
+/* footer */
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
