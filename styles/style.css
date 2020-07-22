@@ -1,3 +1,4 @@
+/* Hompage */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,8 @@ header {
     background-position: center center;
     position: relative;
 }
+
+/* Navigation */
 .nav-area {
    float: right;
    list-style: none;
@@ -37,12 +40,15 @@ header {
     color: #333;
 }
 
+/* Banner */
+
 .logo img{
     width: 100px;
     float: left;
     height: auto;
 }
 
+/* Headings on image */
 .welcome-text{
     position: absolute;
     width: 600px;
