@@ -10,6 +10,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  opacity: 0.7;
 }
 
 ul.topnav li {float: right;}
@@ -35,6 +36,7 @@ ul.topnav li.right {float: right;}
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  opacity: 0.7;
 }
 
 .dropdown-content a {
@@ -60,21 +62,18 @@ ul.topnav li.right {float: right;}
 <body>
 
 <ul class="topnav">
-  <li><a href="/">Home</a></li>
-  <li><a href="/mission">Our Mission</a></li>
-  <li><a href="/app">Mobile App</a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">About</a>
     <div class="dropdown-content">
       <a href="/team">Our Team</a>
       <a href="/contact">Contact Us</a>
+  <li><a href="/app">Mobile App</a></li>
+  <li><a href="/mission">Our Mission</a></li>
+  <li><a class="active" href="/">Home</a></li>>
 </ul>
 
 <div style="padding:0 16px;">
-  <h2>Responsive Topnav Example</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
+
 </div>
 
 </body>
