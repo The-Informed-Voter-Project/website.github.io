@@ -9,30 +9,27 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar fixed-top navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <div class="navbar-header">
       <a class="navbar-brand" href="/">The Informed Voter Project</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">The Issue</a></li>
-      <li><a href="#">Our Mission</a></li>
-      <li><a href="#">App</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+      <li><a href="/issue">The Issue</a></li>
+      <li><a href="/mission">Our Mission</a></li>
+      <li><a href="/app">App</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
+          <li><a href="/team">Our Team</a></li>
+          <li><a href="/contact">Contact Us</a></li>
         </ul>
       </li>
     </ul>
   </div>
 </nav>
   
-<div class="container">
-  <h3>Navbar With Dropdown</h3>
-  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
-</div>
-
 </body>
 </html>
