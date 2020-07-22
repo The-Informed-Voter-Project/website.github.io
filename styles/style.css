@@ -80,3 +80,9 @@ header {
     background: #fff;
     color: #333;
 }  
+
+.welcome-text p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
