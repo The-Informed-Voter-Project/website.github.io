@@ -147,26 +147,11 @@ body {
   height: auto;
 }
 
-.statement-section {
-    text-align: center;
-}
-
-.hands {
+.act {
+    background-image: url(../images/act.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.statement-section h1 {
-    color: #fff;
-    font-style: italic;
-    font-size: 50px;
-    text-align: center;
-}
-
-.statement-section p {
-    color: #fff;
-    font-size: 40px;
-    text-align: center;
 }
 
 .statement a{
