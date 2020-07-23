@@ -14,6 +14,15 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    
+}
+
+.banner {
+ height: 100vh;
+ 
+ /* Flexbox */
+ display: flex;
+ align-items: center;
 }
 
 /* Navigation */
@@ -42,7 +51,7 @@ body {
 .welcome-text h1{
     color: #fff;
     text-transform: uppercase;
-    font-size: 5.5em;
+    font-size: 60px;
     text-align: center;
 }  
 
