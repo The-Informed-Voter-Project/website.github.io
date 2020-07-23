@@ -40,7 +40,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 60px;
-    text-align: center;
 }  
 .welcome-text a{
     border: 1px solid #fff;
@@ -56,8 +55,7 @@ body {
     background: #fff;
     color: #333;
 }  
-.welcome-text p{
+.lead p{
     color: #fff;
     font-size: 30px;
-    text-align: center;
 }
