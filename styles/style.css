@@ -123,8 +123,8 @@ body {
     color: #333;
 }  
 .goal-button a:hover {
-    background: #fff;
-    color: #333;
+    background: #333;
+    color: #fff;
 }  
 
 @media screen and (max-width:600px) {
