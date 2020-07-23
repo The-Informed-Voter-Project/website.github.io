@@ -139,9 +139,7 @@ body {
     text-align: center;
 }
 
-.rem-vote {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/seattle.jpg");
-    background-size: cover;
+.hands {
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -173,3 +171,5 @@ body {
     background: #fff;
     color: #333;
 }  
+
+
