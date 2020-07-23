@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
 .city {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/seattle.jpg");
     background-size: cover;
@@ -17,17 +22,6 @@
     
 }
 
-.banner {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/seattle.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
- 
- /* Flexbox */
-    display: flex;
-    align-items: center;
-}
 
 /* Navigation */
 body { 
