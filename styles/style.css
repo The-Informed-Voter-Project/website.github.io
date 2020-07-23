@@ -22,6 +22,10 @@ body {
     padding-left: 30px; 
     padding-right: 30px; 
 }
+
+ .navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
 /* Banner */
 
 .logo img{
