@@ -110,6 +110,21 @@ body {
     text-transform: uppercase;
 }    
 
+.goal-button a{
+    border: 1px solid #333;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}  
+.goal-button a:hover {
+    background: #fff;
+    color: #333;
+}  
+
 @media screen and (max-width:600px) {
     .pe {
         width: 100%
