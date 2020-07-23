@@ -70,6 +70,7 @@ body {
 
 .goals-section {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .inner-width {
@@ -85,8 +86,7 @@ body {
     text-transform: uppercase;
     display: inline-block;
     border-bottom: 4px solid;
-    padding-bottom: 10px;
-}
+   }
 
 .goal {
     float: left;
