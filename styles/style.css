@@ -8,13 +8,12 @@
     width: auto;
     margin: 0;
 }
-header {
+
+.city {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/seattle.jpg");
-    height: 100vh;
-    -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    position: relative;
+    background-repeat: no-repeat;
 }
 
 /* Navigation */
