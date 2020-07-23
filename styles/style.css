@@ -135,6 +135,18 @@ body {
 
 /* Act as if ... */
 
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
 .statement-section {
     text-align: center;
 }
