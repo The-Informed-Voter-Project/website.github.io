@@ -82,10 +82,10 @@ body{
 }
 
 .team-section h1 {
-    font-size: 20px;
-    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    margin: 4vmax 0 0 3vmax;
     display: inline-block;
-    border-bottom: 4px solid;
     padding-bottom: 10px;
    }
 
@@ -109,8 +109,7 @@ body{
 }
 
 .g-name {
-    margin: 30px 0;
-    text-transform: uppercase;
+    margin: 20px 0;
 }    
 
 .goal-button a{
@@ -118,7 +117,7 @@ body{
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 20px;
     display: inline-block;
     color: #333;
@@ -159,7 +158,7 @@ body{
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 20px;
     display: inline-block;
     color: #fff;
