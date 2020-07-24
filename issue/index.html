@@ -12,11 +12,11 @@
         <meta name="viewport" content="width=device-width", initial scale=1>
     </head>
     <style>
-        .funnel{
-            width:30%;
-            height: auto;
-            overflow:hidden;
-            display: center;
+        table.table tbody tr td,
+        table.table thead tr th,
+        table.table thead {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
         }
         
     </style>
@@ -50,7 +50,37 @@
             </div> 
             </div> 
        </div>
-        
+ <div class="container">
+  <h2>Bordered Table</h2>
+
+  <p>The .table-bordered class adds borders to a table:</p>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
     </body>
 </html>
