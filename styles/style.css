@@ -44,7 +44,7 @@ body, html {
   color: white;
 }
 
-.hero-text a {
+.hero-text button {
     border: 1px solid #fff;
     background-color: Transparent;
     padding: 10px 25px;
@@ -55,7 +55,7 @@ body, html {
     display: inline-block;
 }
 
-.hero-text a:hover {
+.hero-text button:hover {
     background: #fff;
     color: #333;
 }
