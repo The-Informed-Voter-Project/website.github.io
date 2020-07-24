@@ -17,10 +17,7 @@ body, html {
 }
 
 /* Navigation */
-body { 
-    padding-left: 30px; 
-    padding-right: 30px; 
-}
+
 /* Banner */
 .logo img{
     width: 100px;
