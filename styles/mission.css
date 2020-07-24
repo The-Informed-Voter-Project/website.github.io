@@ -1,9 +1,36 @@
-.funnel {
-    max-width: 250px;
-    height: auto;
+/* Mission page contribute */
+
+.contribute {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/climate-sign-outside-blur-2990644.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.img-fluid {
-    max-width: 100%; 
-    height: auto;
+.contribute-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contribute-text a {
+    border: 1px solid #fff;
+    background-color: Transparent;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.contribute-text a:hover {
+    background: #fff;
+    color: #333;
 }
