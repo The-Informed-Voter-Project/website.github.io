@@ -45,6 +45,7 @@ body, html {
 
 .hero-text button {
     border: 1px solid #fff;
+    background-color: Transparent;
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
