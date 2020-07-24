@@ -53,6 +53,7 @@ body, html {
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
+    color: #fff;
 }
 
 .hero-text button:hover {
@@ -162,6 +163,7 @@ body {
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
+    color: #fff;
 }
 
 .mission-statement-text a:hover {
