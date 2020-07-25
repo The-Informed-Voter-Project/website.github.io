@@ -2,9 +2,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+max-width: 100%;
+height: auto;
+} 
+
 .carousel-item {
-  height: 100vh;
-  min-height: 300px;
   -webkit-background-size: cover;
   background-size: cover;
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), no-repeat center center scroll;
