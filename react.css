@@ -9,11 +9,6 @@ body {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), no-repeat center center scroll;
 }
 
-.seattle img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
-}
 
 .carousel-caption{
   bottom: 220px;
