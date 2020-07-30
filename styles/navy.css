@@ -43,7 +43,7 @@ p {
   background: transparent; }
 
 a.navbar-brand, a.logo {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #fff !important;
   font-size: 2rem;
   font-weight: bold;
