@@ -168,3 +168,14 @@ body{
     background: #fff;
     color: #333;
 }
+
+/* Titles for additional pages */
+
+.hero-image-pages {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/seattle.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
