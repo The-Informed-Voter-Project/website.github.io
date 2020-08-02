@@ -22,11 +22,15 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     margin: 4vmax 0 0 3vmax;
+    text-align: center;
+    position: absolute;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 20 px;
+    text-align: center;
+    position: absolute;
 }
 
 section {
