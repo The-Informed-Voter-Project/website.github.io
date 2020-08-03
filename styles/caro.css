@@ -33,7 +33,7 @@ section {
 Removes white gap between slides - chagnge to base color of slide images
 */
 .carousel {
-  background:#007aeb;
+  background:#fff;
 }
 
 /*
