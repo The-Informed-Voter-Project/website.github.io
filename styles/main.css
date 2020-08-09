@@ -5,8 +5,20 @@ body, html {
   font-family: 'Roboto', sans-serif;
 }
 
+h8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #333;
+}
 
-/* Headings on image */
+p8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+
+/* Home page*/
 .hero-image {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/space-needle-656195.jpg");
   height: 100%;
@@ -43,4 +55,5 @@ body, html {
     color: #333;
 }
 
+/* Footer */
 
