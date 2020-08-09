@@ -3,6 +3,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 h8 {
@@ -56,4 +57,14 @@ p8 {
 }
 
 /* Footer */
+
+.footer {
+  color: #333;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
 
