@@ -1,9 +1,10 @@
 /* General */
 body, html {
   height: 100%;
-  margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  margin: 25px;
+  display: flex;
 }
 
 h8 {
@@ -107,11 +108,20 @@ p8 {
 
 .footer {
   color: #333;
+  padding: 25px;
 }
 
-.footer-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  color: #fff;
+
+@media (max-width: 1400px) {
+  body {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0px;
+    flex-direction: column;
+  }
 }
 
