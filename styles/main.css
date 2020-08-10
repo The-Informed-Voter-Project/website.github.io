@@ -6,7 +6,7 @@ body, html {
   margin: 0;
 }
 
-h8 {
+.h8 {
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: #333;
@@ -14,7 +14,7 @@ h8 {
     margin-bottom: 35px;
 }
 
-h7 {
+.h7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #333;
@@ -24,7 +24,7 @@ h7 {
     
 }
 
-p8 {
+.p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #333;
