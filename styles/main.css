@@ -11,7 +11,7 @@ h8 {
     font-size: 45px;
     color: #333;
     text-align: center;
-    margin: 50px 0 50px 0;
+    margin-bottom: 35px;
 }
 
 h7 {
@@ -20,7 +20,7 @@ h7 {
     color: #333;
     text-align: center;
     font-weight: bold;
-    margin: 50px 0 50px 0;
+    margin-bottom: 35px;
 }
 
 p8 {
@@ -28,11 +28,11 @@ p8 {
     font-size: 20px;
     color: #333;
     text-align: center;
-    margin: 50px 0 50px 0;
+    margin-bottom: 35px;
 }
 
 .gray-back {
-    background-color: #fffef2;
+    background-color: #ddd;
   /* #ddd */
 }
 
