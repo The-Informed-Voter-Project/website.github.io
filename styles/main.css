@@ -20,7 +20,7 @@ h7 {
     color: #333;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 p8 {
@@ -28,7 +28,7 @@ p8 {
     font-size: 20px;
     color: #333;
     text-align: center;
-    margin-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .gray-back {
@@ -120,12 +120,5 @@ footer {
   text-align: center;
   color: white;
   font-size: 20px;
-}
-
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }
 
