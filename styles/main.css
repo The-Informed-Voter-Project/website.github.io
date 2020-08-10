@@ -20,6 +20,7 @@ h7 {
     color: #333;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 35px;
     
 }
 
@@ -29,6 +30,7 @@ p8 {
     color: #333;
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 35px;
 }
 
 .gray-back {
@@ -67,7 +69,7 @@ p8 {
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
     color: #fff;
@@ -125,7 +127,7 @@ p8 {
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
     color: #333;
