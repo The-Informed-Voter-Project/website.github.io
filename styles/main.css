@@ -98,6 +98,17 @@ p8 {
   font-weight: bold;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Footer */
 
@@ -112,5 +123,9 @@ footer {
 }
 
 
-
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
