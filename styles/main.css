@@ -103,6 +103,8 @@ p8 {
 
 .footer {
   color: #333;
+  width: 100%;
+  position: fixed;
 }
 
 .footer-text{
