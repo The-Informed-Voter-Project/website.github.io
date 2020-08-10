@@ -28,6 +28,10 @@ p8 {
     transform: translate(-50%, -50%);
 }
 
+.gray-back {
+    background-color: #ddd;
+}
+
 
 /* Home page*/
 .hero-image {
