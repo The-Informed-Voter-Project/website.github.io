@@ -81,6 +81,12 @@ p8 {
     color: #333;
 }
 
+.miss {
+  height: 300px;
+  width: 300px;
+
+}
+
 /* Issue Page */
 .issue-image {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/person-in-black-sweater-hold-a-grey-road-bike-122477.jpg");
