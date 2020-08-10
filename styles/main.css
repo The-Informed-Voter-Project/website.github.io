@@ -4,7 +4,6 @@ body, html {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   margin: 0;
-  padding: 25px;
 }
 
 h8 {
@@ -31,6 +30,10 @@ p8 {
 
 .gray-back {
     background-color: #ddd;
+}
+
+.space {
+  padding: 25px;
 }
 
 
@@ -96,7 +99,6 @@ p8 {
 
 .footer {
   color: #333;
-  padding: 25px;
 }
 
 .footer-text{
