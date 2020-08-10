@@ -3,8 +3,8 @@ body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  margin: 25px;
-  display: flex;
+  margin: 0;
+  padding: 25px;
 }
 
 h8 {
@@ -100,16 +100,5 @@ p8 {
 }
 
 
-@media (max-width: 1400px) {
-  body {
-    margin: 10px;
-  }
-}
 
-@media (max-width: 1024px) {
-  body {
-    margin: 0px;
-    flex-direction: column;
-  }
-}
 
