@@ -20,7 +20,7 @@ h7 {
     color: #333;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     
 }
 
@@ -30,7 +30,7 @@ p8 {
     color: #333;
     text-align: center;
     line-height: 1.6;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .gray-back {
@@ -131,6 +131,7 @@ p8 {
     margin-top: 20px;
     display: inline-block;
     color: #333;
+    margin-bottom: 25px;
 }
 
 .black-button a:hover {
