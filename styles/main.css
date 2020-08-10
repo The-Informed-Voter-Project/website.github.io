@@ -66,8 +66,8 @@ p8 {
 }
 
 
-.issue-image {
-  text-align: left;
+.issue-text {
+  text-align: right;
   position: absolute;
   top: 50%;
   left: 50%;
