@@ -6,14 +6,14 @@ body, html {
   margin: 0;
 }
 
-h8 {
+.h8 {
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: #333;
     margin-bottom: 35px;
 }
 
-h7 {
+.h7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #333;
@@ -22,7 +22,7 @@ h7 {
     
 }
 
-p8 {
+.p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #333;
@@ -30,7 +30,7 @@ p8 {
     margin-bottom: 25px;
 }
 
-h9 {
+.h9 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #333;
@@ -138,11 +138,12 @@ h9 {
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;    
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
     color: #333;
-}  
+} 
+
 .goal-button a:hover {
     background: #333;
     color: #fff;
