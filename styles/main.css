@@ -10,7 +10,6 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: #333;
-    text-align: center;
     margin-bottom: 35px;
 }
 
@@ -79,11 +78,6 @@ body, html {
     color: #333;
 }
 
-.miss {
-  height: 300px;
-  width: 300px;
-
-}
 
 /* Issue Page */
 .issue-image {
@@ -117,9 +111,10 @@ body, html {
   display: table;
   clear: both;
 }
+
 .goals-section {
     text-align: center;
-    padding-bottom: 20px;
+    padding: 50px 50px 50px 50px;
 }
 
 .inner-width {
@@ -129,38 +124,7 @@ body, html {
     color: #333;
     overflow: hidden;
 }
-
-.team-section h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    margin: 4vmax 0 0 3vmax;
-    display: inline-block;
-    padding-bottom: 10px;
-   }
-
-.goal {
-    float: left;
-    width: calc(100%/3);
-    overflow: hidden;
-    padding: 40px 0;
-    transition: 0.4s;
-}
-
-.goal:hover {
-    background: #ddd;
-}
-
-.goal img {
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.g-name {
-    margin: 20px 0;
-}    
-
+   
 .goal-button a{
     border: 1px solid #333;
     padding: 10px 25px;
