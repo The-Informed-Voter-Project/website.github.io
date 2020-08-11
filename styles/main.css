@@ -74,8 +74,16 @@ body, html {
 }
 
 .goals-section {
-    text-align: left;
+    text-align: center;
     padding: 50px 50px 50px 50px;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: #333;
+    overflow: hidden;
 }
 
 .goal {
@@ -86,13 +94,13 @@ body, html {
     transition: 0.4s;
 }
 
-.goal:hover {
-    background: #ddd;
-}
+.g-name {
+    margin: 20px 0;
+}    
 
 .goal img {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 1500px;
     object-fit: cover;
     border-radius: 50%;
 }  
