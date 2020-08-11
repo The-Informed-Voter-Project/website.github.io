@@ -117,14 +117,49 @@ body, html {
   display: table;
   clear: both;
 }
-
-.black-button {
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.goals-section {
+    text-align: center;
+    padding-bottom: 20px;
 }
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: #333;
+    overflow: hidden;
+}
+
+.team-section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    margin: 4vmax 0 0 3vmax;
+    display: inline-block;
+    padding-bottom: 10px;
+   }
+
+.goal {
+    float: left;
+    width: calc(100%/3);
+    overflow: hidden;
+    padding: 40px 0;
+    transition: 0.4s;
+}
+
+.goal:hover {
+    background: #ddd;
+}
+
+.goal img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.g-name {
+    margin: 20px 0;
+}    
 
 .goal-button a{
     border: 1px solid #333;
