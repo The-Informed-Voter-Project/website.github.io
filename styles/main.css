@@ -73,6 +73,50 @@ body, html {
     color: #333;
 }
 
+.goals-section {
+    text-align: left;
+    padding: 50px 50px 50px 50px;
+}
+
+.goal {
+    float: left;
+    width: calc(100%/3);
+    overflow: hidden;
+    padding: 40px 0;
+    transition: 0.4s;
+}
+
+.goal:hover {
+    background: #ddd;
+}
+
+.goal img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}  
+
+.goal-button a{
+    border: 1px solid #333;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #333;
+} 
+
+.goal-button a:hover {
+    background: #333;
+    color: #fff;
+}  
+
+@media screen and (max-width:600px) {
+    .goal {
+        width: 100%
+    }
 
 /* Issue Page */
 .issue-image {
@@ -106,27 +150,6 @@ body, html {
   display: table;
   clear: both;
 }
-
-.goals-section {
-    text-align: left;
-    padding: 50px 50px 50px 50px;
-}
-   
-.goal-button a{
-    border: 1px solid #333;
-    padding: 10px 25px;
-    text-decoration: none;
-    text-transform: uppercase;    
-    font-size: 14px;
-    margin-top: 20px;
-    display: inline-block;
-    color: #333;
-} 
-
-.goal-button a:hover {
-    background: #333;
-    color: #fff;
-}  
 
 /* Footer */
 
