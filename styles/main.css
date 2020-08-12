@@ -193,7 +193,14 @@ body {
   margin-bottom: 35px;
 }
 
+.ban {
+    width: calc(100%/3);
+    overflow: hidden;
+    padding: 40px 0;
+}
+
 .ban img{
+  height: 250;
   padding-bottom: 25px;
 }
 
