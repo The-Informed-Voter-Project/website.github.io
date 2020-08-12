@@ -2,8 +2,13 @@
 body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: #3C3B6E;
   margin: 0;
+}
+
+.goals-section {
+    text-align: left;
+    padding: 50px 50px 50px 50px;
 }
 
 .box{
@@ -16,13 +21,15 @@ body, html {
     font-size: 45px;
     color: #333;
     margin-bottom: 35px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .h7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #333;
-    font-weight: bold;
+    font-weight: 700;
     margin: 10px 0 0 10px;
     
 }
@@ -35,11 +42,23 @@ body, html {
     margin-bottom: 15px;
 }
 
-.gray-back {
-    background-color: #ddd;
-  /* #9fbfdf */
+
+.h12 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 400;
+    text-align: center;
 }
 
+.p8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
 
 /* Home page*/
 .hero-image {
@@ -76,11 +95,6 @@ body, html {
 .hero-text a:hover {
     background: #fff;
     color: #333;
-}
-
-.goals-section {
-    text-align: center;
-    padding: 50px 50px 50px 50px;
 }
 
 .inner-width {
