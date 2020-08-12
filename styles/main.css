@@ -204,6 +204,11 @@ body {
   padding-bottom: 25px;
 }
 
+@media screen and (max-width:600px) {
+    .ban {
+        width: 100%
+    }
+}     
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
