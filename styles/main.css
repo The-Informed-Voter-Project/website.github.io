@@ -1,8 +1,8 @@
 /* General */
-body, html {
+body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  color: #3C3B6E;
+  background-color: #3C3B6E;
   margin: 0;
 }
 
@@ -149,7 +149,7 @@ body, html {
     }
 
 /* Issue Page */
-.issue-image {
+.hero1-image {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/person-in-black-sweater-hold-a-grey-road-bike-122477.jpg");
   height: 80%;
   background-position: center;
@@ -159,7 +159,7 @@ body, html {
 }
 
 
-.issue-text {
+.hero1-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -182,12 +182,6 @@ body, html {
 }
 
 /* Footer */
-
-footer {
-  color: #333;
-  text-align: center;
-}
-
 .footer-text{
   text-align: center;
   color: white;
