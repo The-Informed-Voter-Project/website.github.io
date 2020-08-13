@@ -157,7 +157,7 @@ color: white;
 <body>
   
 <!-- navigation -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+ <nav id="#navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
 
   <a class="navbar-brand" href="#">
     <img src="../images/logo-bw.png" height="35" alt="logo">
@@ -170,32 +170,40 @@ color: white;
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#issue">Issue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/issue">The Issue</a>
+        <a class="nav-link" href="#mission">Mission</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/">Our Mission</a>
+        <a class="nav-link" href="#app">App</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/app">Mobile App</a>
+        <a class="nav-link" href="#team">Team</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About Us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/team">Team</a>
-          <a class="dropdown-item" href="/contact">Contact</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
  </nav>
   
+<!--Scrollspy-->
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="Issue">@fat</h4>
+  <p>...</p>
+  <h4 id="Mission">@mdo</h4>
+  <p>...</p>
+  <h4 id="App">one</h4>
+  <p>...</p>
+  <h4 id="Team">two</h4>
+  <p>...</p>
+  <h4 id="Contact">three</h4>
+  <p>...</p>
+</div>
+  
 <!-- Home -->
-<div class="jumbotron paral paralsec">
+<div id="home" class="jumbotron paral paralsec">
 <h1 class="display-3">The Informed Voter Project</h1>
 <p class="lead">Here is a short description 1</p>
 <p class="hero-text">
@@ -204,7 +212,7 @@ color: white;
 </div>
 
 <!-- Issue -->
-<div class="jumbotron paral paralsec1">
+<div id="issue" class="jumbotron paral paralsec1">
 <h1 class="display-3">Here is a heading 2</h1>
 <p class="lead">Here is a short description 2</p>
 <p class="hero-text">
@@ -269,7 +277,7 @@ color: white;
 </div>
 
 <!-- Mission -->
-<div class="jumbotron paral paralsec2">
+<div id="mission" class="jumbotron paral paralsec2">
 <h1 class="display-3">Here is a heading 3</h1>
 <p class="lead">Here is a short description 2</p>
 <p class="hero-text">
@@ -278,7 +286,7 @@ color: white;
 </div>
 
 <!-- App -->
-<div class="jumbotron paral paralsec3">
+<div id="app" class="jumbotron paral paralsec3">
 <h1 class="display-3">Links to download app and pic of app running etc</h1>
 </div>
 
