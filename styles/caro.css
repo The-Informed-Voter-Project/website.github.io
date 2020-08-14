@@ -1,65 +1,58 @@
-/* General */
-html {
-    scroll-behavior: smooth;
+figure {
+  position: relative;
+  margin-bottom: 0;
 }
 
-body {
-    background-color: #fff;
-    position: relative;
+.project-description-overlay {
+	background: rgba(0,0,0,0.7);
+	color: white;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #333;
-    margin: 4vmax 0 0 3vmax;
-    text-align: center;
+.project-description-overlay h3, .project-description-overlay p {
+	position: relative;
+	top: -40px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
 }
 
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #333;
-    margin: 4vmax 0 0 3vmax;
-    text-align: center;
+figure:hover .project-description-overlay {
+	opacity: 1;
 }
 
-section {
-    padding-top: 30px;
-    margin-top: -30px;
-}
-/* Hompage carousel */
-/*
-Removes white gap between slides - chagnge to base color of slide images
-*/
-.carousel {
-  background:#fff;
+figure:hover .project-description-overlay h3, figure:hover .project-description-overlay p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
 }
 
-/*
-Forces image to be 100% width and not max width of 100%
-*/
-.carousel-item .img-fluid {
-  width:100%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 55px;
+  width: 55px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-color: #444444;
 }
 
-/* 
-anchors are inline so you need ot make them block to go full width
-*/
-.carousel-item a {
-  display: block;
-  width:100%;
+.carousel-control-prev-icon {
+  margin-left: -50px
 }
 
+.carousel-control-next-icon {
+  margin-right: -50px
+}
 
-/* Meet the Team carousel */
-/*
-    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
-    code customized by Azmind.com
-*/
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Show 4th slide on md if col-md-4*/
-    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+@media (min-width: 992px) {
+    /* Show 4th slide on lg if col-lg-4*/
+    .carousel-inner .active.col-lg-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
         right: -33.3333%;  /*change this with javascript in the future*/
@@ -68,9 +61,9 @@ anchors are inline so you need ot make them block to go full width
         visibility: visible;
     }
 }
-@media (min-width: 576px) and (max-width: 768px) {
-    /* Show 3rd slide on sm if col-sm-6*/
-    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 3rd slide on md if col-md-6*/
+    .carousel-inner .active.col-md-6.carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
         right: -50%;  /*change this with javascript in the future*/
@@ -79,7 +72,9 @@ anchors are inline so you need ot make them block to go full width
         visibility: visible;
     }
 }
-@media (min-width: 576px) {
+
+/* MD */
+@media (min-width: 768px) {
     .carousel-item {
         margin-right: 0;
     }
@@ -123,8 +118,9 @@ anchors are inline so you need ot make them block to go full width
         visibility: visible;
     }
 }
-/* MD */
-@media (min-width: 768px) {
+
+/* LG */
+@media (min-width: 992px) {
     /* show 3rd of 3 item slide */
     .carousel-inner .active + .carousel-item + .carousel-item {
         display: block;
@@ -151,39 +147,3 @@ anchors are inline so you need ot make them block to go full width
         visibility: visible;
     }
 }
-/* LG */
-@media (min-width: 991px) {
-    /* show 4th item */
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-        transition: none;
-    }
-    /* Show 5th slide on lg if col-lg-3 */
-    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -25%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    /* right or prev direction //t - previous slide direction last item animation fix */
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
-}
-
-
-
